@@ -6,16 +6,11 @@ function App() {
   const course=["c","c++","JS","React"]
   return (
     <div className="App">
-      {/* <header className="App-header">
+      <header className="App-header">
         TodoList Demo
-      </header> */}
-      {/* <TodoList/> */}
-      <h1>Wise Learnz , madurai</h1>
-      <ul>
-        {course.map((i)=>(
-          <li type="i">{i}</li>
-        ))}
-      </ul>
+      </header> 
+       <TodoList/> 
+      
     </div>
   );
 }
