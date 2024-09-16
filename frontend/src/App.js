@@ -6,9 +6,7 @@ function App() {
   const course=["c","c++","JS","React"]
   return (
     <div className="App">
-      <header className="App-header">
-        TodoList Demo
-      </header> 
+      <h1>TodoList Demo</h1>
        <TodoList/> 
       
     </div>
