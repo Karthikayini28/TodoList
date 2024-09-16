@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const api = 'http://localhost:5000/todos';
+const api = 'https://todo-list-demoapi.vercel.app/todos';
 
 const TodoList = () => {
   const [todos, setTodos] = useState([]);
