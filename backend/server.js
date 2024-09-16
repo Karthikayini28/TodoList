@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors(
   {
-    origin:[""],
+    origin:["todo-list-demoapi.vercel.app"],
     methods:["GET","POST"],
     credentials:true
   }
