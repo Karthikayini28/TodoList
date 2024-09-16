@@ -9,7 +9,7 @@ const TodoList = () => {
   const [text, setText] = useState('');
   const [editingId, setEditingId] = useState(null);
   const [editText, setEditText] = useState('');
-
+axios.defaults.withCredentials=true;
   useEffect(() => {
     axios.get(api)
       .then(res => setTodos(res.data))
