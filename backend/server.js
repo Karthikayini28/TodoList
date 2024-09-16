@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors({
   origin:["https://todo-list-frontend-dcd6gu9iw-karthikayinis-projects.vercel.app/"],
   methods:["POST","GET","PATCH","DELETE"],
-  Credentials:true
+  credentials:true
 }
 ));
 
