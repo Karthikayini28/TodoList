@@ -7,13 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 
-app.use(cors(
-  {
-    origin:["https://todo-list-frontend-f3ahw5usg-karthikayinis-projects.vercel.app"],
-    methods:["GET","POST","PATCH","DELETE"],
-    credentials:true
-  }
-));
+app.use(cors());
 app.use(express.json());
 
 mongoose.connect("mongodb+srv://karthisrwiselearnz:Kkam@2803@cluster0.vak6v.mongodb.net/Todo?retryWrites=true&w=majority&appName=Cluster0")
