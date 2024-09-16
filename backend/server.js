@@ -22,4 +22,7 @@ mongoose.connect("mongodb+srv://karthisrwiselearnz:Kkam@2803@cluster0.vak6v.mong
 
 app.use('/todos', todoRoutes);
 
+app.get('/',(req,res)=>{
+  res.send("Welcome WiseLearnz")
+})
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
